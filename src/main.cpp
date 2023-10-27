@@ -50,6 +50,9 @@ int main(int argc, char* argv[]){
             printf("File successfully read \n");
         }
 
+        /** Close binary file */
+        firmware_binary.close();
+
 
     }
     return 0;
